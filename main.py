@@ -22,13 +22,13 @@ from colorama import init as colorama_init, Fore, Style
 
 # ---------------- Configuration ----------------
 
-# Keep the placeholder exactly as required. Insert your key in place of <OPENROUTER_API_KEY>.
-OPENROUTER_API_KEY = "Bearer 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"
+# Keep the placeholder exactly as required. Insert your key in place of <API_KEY>.
+OPENROUTER_API_KEY = "Bearer <API_KEY>"
 
 OPENROUTER_TITLE = "LuminaTerm Chat"
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-OPENROUTER_MODEL = "deepseek/deepseek-r1-0528:free"
+OPENROUTER_MODEL = "<NAME OF YOUR MODEL>"
 
 # Chatbot branding
 CHATBOT_NAME = "LuminaTerm"
